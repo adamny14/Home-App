@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  homeapp:
+    image: homeapp
+    build:
+      context: .\Home App
+      dockerfile: Dockerfile
